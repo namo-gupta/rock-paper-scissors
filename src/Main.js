@@ -8,6 +8,7 @@ const Main = () => {
     const [compscore, setCompscore] = useState(0);
     const [result, setResult] = useState("Lets see who wins the game!");
     const [turnresult, setTurnresult] = useState(null);
+    
     const [gameover, setGameover] = useState(false);
 
     const choices = ["rock", "paper", "scissors"];
